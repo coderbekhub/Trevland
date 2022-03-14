@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#site-header {
+  background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+  border-radius: 0px;
+}
+
+.nav-bar {
+  padding-top: 30px;
+  margin-bottom: 80px;
+}
+
+.header-logo {
+  margin-right: 650px;
+}
+
+.style {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.nav-list {
+  font-family: Gothic A1;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.momentum {
+  font-family: Gothic A1;
+}
+
+.momentum-title {
+  font-size: 80px;
+  line-height: 80px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.momentum-text {
+  width: 677px;
+  font-size: 30px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.momentum-link {
+  width: 170px;
+  height: 66px;
+  background: #FC0A7E;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.momentum-img {
+  width: 652px;
+  height: 680px;
+  margin-bottom: 60px;
+}
+
+.main-section {
+  background: #1B1B1B;
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+
+.planshet {
+  width: 1200px;
+  height: 656px;
+  display: flex;
+  justify-content: center;
+}
+
+.consectetur {
+  font-family: Gothic A1;
+  flex-direction: column;
+}
+
+.consectetur-text {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+  margin-bottom: 30px;
+}
+
+.consectetur-title {
+  font-size: 38px;
+  line-height: 48px;
+  color: #fff;
+  width: 650px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.about {
+  font-family: Gothic A1;
+  margin-right: 200px;
+  margin-left: 150px;
+}
+.about-sec {
+  margin-left: 86px;
+  margin-right: 150px;
+}
+
+.about-cay {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+  margin-bottom: 30px;
+}
+
+.about-cay-title {
+  font-size: 38px;
+  line-height: 48px;
+  color: #000;
+  margin-bottom: 22px;
+  width: 306px;
+}
+
+.about-cay-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6B6B6B;
+  width: 306px;
+}
+
+.order-card {
+  margin-bottom: 160px;
+}
+
+.orders-img {
+  margin-top: 160px;
+}
+
+.about-thrid {
+  margin-top: 80px;
+}
+
+.orders-thrid-card {
+  margin-bottom: 160px;
+}
+
+.info-list {
+  font-family: Gothic A1;
+  margin-right: 62px;
+}
+
+.info-sec{
+  margin-bottom: 163px;
+}
+
+.info-img {
+  display: block;
+  margin-bottom: 40px;
+  width: 80px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-title {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 17px;
+}
+
+.info-text {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+  width: 371px;
+}
+
+.date-info {
+  margin-bottom: 170px;
+}
+
+.info {
+  font-family: Gothic A1;
+  margin-right: 170px;
+}
+
+.info-num {
+  display: block;
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.info-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  width: 193px;
+}
+
+.menu-info {
+  font-family: Gothic A1;
+  margin-right: 100px;
+}
+
+.menu-info-sec {
+  margin-left: 90px;
+}
+
+.menu-span {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A8A8A8;
+  margin-bottom: 25px;
+}
+
+.menu-title {
+  font-size: 38px;
+  line-height: 48px;
+  color: #000;
+  width: 258px;
+  margin-bottom: 22px;
+}
+
+.menu-text {
+  width: 330px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6B6B6B;
+}
+
+.menu-second {
+  margin-bottom: 161px;
+}
+
+.crass {
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+.menu-thrid {
+  margin-bottom: 160px;
+}
+
+.after {
+  font-family: Gothic A1;
+}
+
+.quote-marks {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 63px;
+}
+
+.quote-text {
+  width: 700px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #6B6B6B;
+  margin: 0 auto;
+}
+
+.home-address {
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+}
+
+.quote-home {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+  margin-right: 20px;
+}
+
+.hr {
+  width: 30px;
+  height: 1px;
+  background-color: #D3D3D3;
+  border: none;
+  margin-right: 20px;
+}
+
+.quote-home-address {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+}
+
+.corners {
+  width: 7px;
+  height: 7px;
+  background-color: #222;
+  margin-right: 16px;
+
+}
+
+.corners-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 121px;
+}
+
+.corners-sec {
+  background-color: rgba(34, 34, 34, 0.4);
+}
+
+.partner {
+  margin-bottom: 78px;
+}
+
+.bgimg {
+  background-image: url('../img/bgimg.png');
+  width: 1440px;
+  height: 518px;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+
+.get-started {
+  background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+  padding: 164px 522px 261px 522px;
+}
+
+.started {
+  font-family: Gothic A1;
+}
+
+.started-title {
+  font-size: 38px;
+  line-height: 48px;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.started-link {
+  width: 190px;
+  height: 66px;
+  background: #FC0A7E;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.started-link-sec {
+  margin-left: 10px;
+  border: 1px solid #B04BB3;
+  box-sizing: border-box;
+}
+
+.note {
+  background: #1B1B1B;
+  padding: 129px 0 146px 0;
+}
+
+.notification {
+  font-family: Gothic A1;
+}
+
+.note-title {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.note-text {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+  margin-bottom: 40px;
+}
+
+.input {
+  width: 311px;
+  height: 70px;
+  background: #fff;
+  box-shadow: 0px 0px 0px #FC0A7E;
+  border-radius: 3px 0px 0px 3px;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 22px 0 22px 20px;
+  color: #000;
+}
+
+.sub {
+  width: 154px;
+  height: 70px;
+  background-color: #FC0A7E;
+  border-radius: 0px 3px 3px 0px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding: 22px 40px;
+  color: #000;
+}
+
+#site-footer {
+  background: #1B1B1B;
+}
+
+.footer-nav-bar {
+  padding: 0 0 70px 0;
+}
+
+.footer-nav-list {
+  font-family: Gothic A1;
+}
+
+
+.footer-nav-item {
+  margin-right: 30px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-nav-link {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6B6B6B;
+}
